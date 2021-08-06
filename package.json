@@ -1,0 +1,18 @@
+{
+    "name": "finalizia",
+    "description": "Include single readings and expand nomina sacras",
+    "version": "0.1.0",
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivandustin/finalize"
+    },
+    "dependencies": {
+        "argparse": "^2.0.1"
+    },
+    "bin": {
+        "finalize": "index.js",
+        "get-single-readings": "get-single-readings.js",
+        "get-all-word": "get-all-words.js"
+    }
+}
