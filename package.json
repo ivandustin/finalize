@@ -8,11 +8,13 @@
         "url": "https://github.com/ivandustin/finalize"
     },
     "dependencies": {
-        "argparse": "^2.0.1"
+        "argparse": "^2.0.1",
+        "collatia": "^0.1.14"
     },
     "bin": {
         "finalize": "index.js",
         "get-single-readings": "get-single-readings.js",
-        "get-all-word": "get-all-words.js"
+        "get-all-word": "get-all-words.js",
+        "get-overlines": "get-overlines.js"
     }
 }
